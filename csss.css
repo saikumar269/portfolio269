@@ -1,0 +1,202 @@
+/* General Adjustments */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-theme {
+    background-color: white;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+#navigation {
+    background-color: #111111;
+    color: white;
+    border-bottom: 4px solid hsl(15, 22%, 96%);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    color: #F05423;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.separator {
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+/* Responsive Adjustments */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #para {
+        font-size: 16px;
+    }
+
+    .projects {
+        width: 100%;
+        border-color: #F05423;
+        border-radius: 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-brand img {
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #para {
+        font-size: 18px;
+    }
+
+    .projects {
+        width: 90%;
+        border-color: #F05423;
+        border-radius: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #para {
+        font-size: 20px;
+    }
+
+    .projects {
+        width: 80%;
+        border-color: #F05423;
+        border-radius: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-brand img {
+        width: 220px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #para {
+        font-size: 22px;
+    }
+
+    .projects {
+        width: 70%;
+        border-color: #F05423;
+        border-radius: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-brand img {
+        width: 240px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #para {
+        font-size: 24px;
+    }
+
+    .projects {
+        width: 60%;
+        border-color: #F05423;
+        border-radius: 20px;
+    }
+}
+
+/* Footer and Contact */
+#footer {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.contact-container.dark-theme {
+    background-color: white;
+}
+
+/* Specific Element Adjustments */
+.img-fluid {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#col1 {
+    margin: 10px;
+    padding: 20px;
+}
+
+#col1:hover {
+    background-color: #F05423;
+}
+
+.contact {
+    color: #F05423;
+    text-align: center;
+
+}
+
+span {
+    color: #F05423;
+}
