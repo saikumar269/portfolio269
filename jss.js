@@ -4,11 +4,14 @@ function redirectToLink1() {
 }
 
 function redirectToLink2() {
-    var url = "https://todoapp269.ccbp.tech/";
+    var url = "https://todoapp269.ccbp.tech";
     window.open(url, "_blank");
 }
 
-
+function redirectToLink3() {
+    var url = "https://inficodersai2.ccbp.tech/";
+    window.open(url, "_blank");
+}
 
 function redirectToLink4() {
     var url = "https://weatherapp269.ccbp.tech/";
