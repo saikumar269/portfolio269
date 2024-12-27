@@ -1,3 +1,4 @@
+/* js code */
 function redirectToLink1() {
     var url = "https://foodmunch269.ccbp.tech/";
     window.open(url, "_blank");
